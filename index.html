@@ -9,11 +9,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Untree.co" />
-    <link rel="shortcut icon" href="favicon.png" />
-
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
     <meta name="description" content="" />
-    <meta name="keywords" content="bootstrap, bootstrap5" />
+    <meta name="keywords" content="" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +31,7 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <title>
-      Property &mdash; Free Bootstrap 5 Website Template by Untree.co
+      Best key Reality
     </title>
   </head>
   <body>
@@ -48,31 +49,21 @@
         <div class="menu-bg-wrap">
           <div class="site-navigation">
             <a href="index.html" class="logo m-0 float-start">
-              <img src="images/BKR White.png" alt="Property Logo" style="height: auto; width: 100px;">
+              <img src="images/BKRNEW.png" alt="Property Logo" style="height: auto; width: 100px;">
           </a>
 
             <ul
               class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
             >
-              <li class="active"><a href="index.html">Home</a></li>
-              <li class="has-children">
-                <a href="properties.html">Properties</a>
-                <ul class="dropdown">
-                  <li><a href="#">Buy Property</a></li>
-                  <li><a href="#">Sell Property</a></li>
-                  <li class="has-children">
-                    <a href="#">Dropdown</a>
-                    <ul class="dropdown">
-                      <li><a href="#">Sub Menu One</a></li>
-                      <li><a href="#">Sub Menu Two</a></li>
-                      <li><a href="#">Sub Menu Three</a></li>
-                    </ul>
-                  </li>
-                </ul>
+              <li class="active"><a href="#index">Home</a></li>
+              <li >
+                <a href="#properties">Properties</a>
+               
               </li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#location">Location</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
 
             <a
@@ -88,48 +79,116 @@
       </div>
     </nav>
 
-    <div class="hero">
+    <div class="hero" id="index">
       <div class="hero-slide">
         <div
           class="img overlay"
-          style="background-image: url('images/hero_bg_3.jpg')"
+          style="height: 700px !important; background-image:url('images/hero_bg_3.jpg')"
         ></div>
         <div
           class="img overlay"
-          style="background-image: url('images/hero_bg_2.jpg')"
+          style="height: 700px !important; background-image: url('images/hero_bg_2.jpg')"
         ></div>
         <div
           class="img overlay"
-          style="background-image: url('images/hero_bg_1.jpg')"
+          style="height: 700px !important; background-image: url('images/hero_bg_1.jpg')"
         ></div>
       </div>
 
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-lg-9 text-center">
-            <h1 class="heading" data-aos="fade-up">
-              Your Trusted Partner in Real Estate in Bangalore
-            </h1>
-            <p data-aos="fade-up" style="color: white;">Find your dream property with Best Key Realty!</p>
-            <form
-              action="#"
-              class="narrow-w form-search d-flex align-items-stretch mb-3"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <input
-                type="text"
-                class="form-control px-4"
-                placeholder="Your ZIP code or City. e.g. New York"
-              />
-              <button type="submit" class="btn btn-primary">Search</button>
+      <div class="container mt-5">
+        <div class="row align-items-center">
+          <!-- Left Section -->
+          <div class="col-md-6">
+            <div class="text-center">
+              <h1 class="heading" data-aos="fade-up">
+                Your Trusted Partner Real Estate in Bangalore
+              </h1>
+              <h3 data-aos="fade-up" style="color: white;">Find your dream property with Best Key Realty!</h3>
+            </div>
+          </div>
+      
+          <!-- Right Section -->
+          <div class="col-md-6">
+            <form action="#" id="contact">
+              
+              <div class="row">
+                <h2 style="text-align: center; color: white;">Get In Touch</h2>
+                <div class="col-6 mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="col-6 mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div class="col-6 mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Your Phone Number"
+                    pattern="[0-9]{10}"
+                    required
+                  />
+                </div>
+                <div class="col-12 mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="col-12 mb-3">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="7"
+                    class="form-control"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+      
+                <div class="col-12 mb-3">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="terms"
+                      required
+                    />
+                    <label class="form-check-label" for="terms" style="color: white;">
+                      I agree to the <a href="terms.html" style="color: white;">Terms and Conditions</a>.
+                    </label>
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="submit"
+                      value="Send Message"
+                      class="btn btn-primary"
+                    />
+                  </div>
+                </div>
+      
+                
+              </div>
             </form>
           </div>
         </div>
       </div>
+      
     </div>
 
-    <div class="section">
+    <div class="section" id="properties">
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-lg-6">
@@ -153,33 +212,32 @@
             <div class="property-slider-wrap">
               <div class="property-slider">
                 <div class="property-item">
-                  <a href="property-single.html" class="img">
-                    <img src="images/img_1.jpg" alt="Image" class="img-fluid" />
+                  <a href="#" class="img">
+                    <img src="images/Shriram 107 Southeast.jpeg" alt="Image" class="img-fluid" />
                   </a>
 
                   <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
+                    <div class="price mb-2"><span>$Contact For Price</span></div>
                     <div>
                       <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
-                      >
-                      <span class="city d-block mb-3">California, USA</span>
+                        >Manchanahalli Rd, Krishnasagara</span>
+                      <span class="city d-block mb-3">Attibele, Karnataka</span>
 
                       <div class="specs d-flex mb-4">
                         <span class="d-block d-flex align-items-center me-3">
                           <span class="icon-bed me-2"></span>
-                          <span class="caption">2 beds</span>
+                          <span class="caption"> 2 BHK &</span>
                         </span>
                         <span class="d-block d-flex align-items-center">
-                          <span class="icon-bath me-2"></span>
-                          <span class="caption">2 baths</span>
+                          <span class="icon-bed me-2"></span>
+                          <span class="caption">3 BHK</span>
                         </span>
                       </div>
 
                       <a
-                        href="property-single.html"
+                        href="#"
                         class="btn btn-primary py-2 px-3"
-                        >See details</a
+                        >Book Now</a
                       >
                     </div>
                   </div>
@@ -187,33 +245,33 @@
                 <!-- .item -->
 
                 <div class="property-item">
-                  <a href="property-single.html" class="img">
-                    <img src="images/img_2.jpg" alt="Image" class="img-fluid" />
+                  <a href="#" class="img">
+                    <img src="images/Shriram Liberty Square.jpeg" alt="Image" class="img-fluid" />
                   </a>
 
                   <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
+                    <div class="price mb-2"><span>$Contact for Price</span></div>
                     <div>
                       <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
+                        >apartment, opposite concord southscape, near gold coin club, Glass Factory Layout, Electronic City.</span
                       >
-                      <span class="city d-block mb-3">California, USA</span>
+                      <span class="city d-block mb-3">Bengaluru, Karnataka</span>
 
                       <div class="specs d-flex mb-4">
                         <span class="d-block d-flex align-items-center me-3">
                           <span class="icon-bed me-2"></span>
-                          <span class="caption">2 beds</span>
+                          <span class="caption">1,2,3 BHKs</span>
                         </span>
                         <span class="d-block d-flex align-items-center">
-                          <span class="icon-bath me-2"></span>
-                          <span class="caption">2 baths</span>
+                          <span class="icon-bed me-2"></span>
+                          <span class="caption">3 BHK Villas</span>
                         </span>
                       </div>
 
                       <a
-                        href="property-single.html"
+                        href="#"
                         class="btn btn-primary py-2 px-3"
-                        >See details</a
+                        >Book Now</a
                       >
                     </div>
                   </div>
@@ -221,264 +279,38 @@
                 <!-- .item -->
 
                 <div class="property-item">
-                  <a href="property-single.html" class="img">
-                    <img src="images/img_3.jpg" alt="Image" class="img-fluid" />
+                  <a href="#" class="img">
+                    <img src="images/Soulace  by Modern spaces.jpeg" alt="Image" class="img-fluid" />
                   </a>
 
                   <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
+                    <div class="price mb-2"><span>$Contact For Price</span></div>
                     <div>
                       <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
+                        >Kada Agrahara, Yamare.</span
                       >
-                      <span class="city d-block mb-3">California, USA</span>
+                      <span class="city d-block mb-3">Karnataka</span>
 
                       <div class="specs d-flex mb-4">
                         <span class="d-block d-flex align-items-center me-3">
                           <span class="icon-bed me-2"></span>
-                          <span class="caption">2 beds</span>
+                          <span class="caption">4 BHK Villa</span>
                         </span>
                         <span class="d-block d-flex align-items-center">
-                          <span class="icon-bath me-2"></span>
-                          <span class="caption">2 baths</span>
+                          <span class="icon-bed me-2"></span>
+                          <span class="caption">5 BHK Villa</span>
                         </span>
                       </div>
 
                       <a
-                        href="property-single.html"
+                        href="#"
                         class="btn btn-primary py-2 px-3"
-                        >See details</a
+                        >Book Now</a
                       >
                     </div>
                   </div>
                 </div>
                 <!-- .item -->
-
-                <div class="property-item">
-                  <a href="property-single.html" class="img">
-                    <img src="images/img_4.jpg" alt="Image" class="img-fluid" />
-                  </a>
-
-                  <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
-                    <div>
-                      <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
-                      >
-                      <span class="city d-block mb-3">California, USA</span>
-
-                      <div class="specs d-flex mb-4">
-                        <span class="d-block d-flex align-items-center me-3">
-                          <span class="icon-bed me-2"></span>
-                          <span class="caption">2 beds</span>
-                        </span>
-                        <span class="d-block d-flex align-items-center">
-                          <span class="icon-bath me-2"></span>
-                          <span class="caption">2 baths</span>
-                        </span>
-                      </div>
-
-                      <a
-                        href="property-single.html"
-                        class="btn btn-primary py-2 px-3"
-                        >See details</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- .item -->
-
-                <div class="property-item">
-                  <a href="property-single.html" class="img">
-                    <img src="images/img_5.jpg" alt="Image" class="img-fluid" />
-                  </a>
-
-                  <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
-                    <div>
-                      <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
-                      >
-                      <span class="city d-block mb-3">California, USA</span>
-
-                      <div class="specs d-flex mb-4">
-                        <span class="d-block d-flex align-items-center me-3">
-                          <span class="icon-bed me-2"></span>
-                          <span class="caption">2 beds</span>
-                        </span>
-                        <span class="d-block d-flex align-items-center">
-                          <span class="icon-bath me-2"></span>
-                          <span class="caption">2 baths</span>
-                        </span>
-                      </div>
-
-                      <a
-                        href="property-single.html"
-                        class="btn btn-primary py-2 px-3"
-                        >See details</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- .item -->
-
-                <div class="property-item">
-                  <a href="property-single.html" class="img">
-                    <img src="images/img_6.jpg" alt="Image" class="img-fluid" />
-                  </a>
-
-                  <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
-                    <div>
-                      <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
-                      >
-                      <span class="city d-block mb-3">California, USA</span>
-
-                      <div class="specs d-flex mb-4">
-                        <span class="d-block d-flex align-items-center me-3">
-                          <span class="icon-bed me-2"></span>
-                          <span class="caption">2 beds</span>
-                        </span>
-                        <span class="d-block d-flex align-items-center">
-                          <span class="icon-bath me-2"></span>
-                          <span class="caption">2 baths</span>
-                        </span>
-                      </div>
-
-                      <a
-                        href="property-single.html"
-                        class="btn btn-primary py-2 px-3"
-                        >See details</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- .item -->
-
-                <div class="property-item">
-                  <a href="property-single.html" class="img">
-                    <img src="images/img_7.jpg" alt="Image" class="img-fluid" />
-                  </a>
-
-                  <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
-                    <div>
-                      <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
-                      >
-                      <span class="city d-block mb-3">California, USA</span>
-
-                      <div class="specs d-flex mb-4">
-                        <span class="d-block d-flex align-items-center me-3">
-                          <span class="icon-bed me-2"></span>
-                          <span class="caption">2 beds</span>
-                        </span>
-                        <span class="d-block d-flex align-items-center">
-                          <span class="icon-bath me-2"></span>
-                          <span class="caption">2 baths</span>
-                        </span>
-                      </div>
-
-                      <a
-                        href="property-single.html"
-                        class="btn btn-primary py-2 px-3"
-                        >See details</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- .item -->
-
-                <div class="property-item">
-                  <a href="property-single.html" class="img">
-                    <img src="images/img_8.jpg" alt="Image" class="img-fluid" />
-                  </a>
-
-                  <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
-                    <div>
-                      <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
-                      >
-                      <span class="city d-block mb-3">California, USA</span>
-
-                      <div class="specs d-flex mb-4">
-                        <span class="d-block d-flex align-items-center me-3">
-                          <span class="icon-bed me-2"></span>
-                          <span class="caption">2 beds</span>
-                        </span>
-                        <span class="d-block d-flex align-items-center">
-                          <span class="icon-bath me-2"></span>
-                          <span class="caption">2 baths</span>
-                        </span>
-                      </div>
-
-                      <a
-                        href="property-single.html"
-                        class="btn btn-primary py-2 px-3"
-                        >See details</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- .item -->
-
-                <div class="property-item">
-                  <a href="property-single.html" class="img">
-                    <img src="images/img_1.jpg" alt="Image" class="img-fluid" />
-                  </a>
-
-                  <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
-                    <div>
-                      <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
-                      >
-                      <span class="city d-block mb-3">California, USA</span>
-
-                      <div class="specs d-flex mb-4">
-                        <span class="d-block d-flex align-items-center me-3">
-                          <span class="icon-bed me-2"></span>
-                          <span class="caption">2 beds</span>
-                        </span>
-                        <span class="d-block d-flex align-items-center">
-                          <span class="icon-bath me-2"></span>
-                          <span class="caption">2 baths</span>
-                        </span>
-                      </div>
-
-                      <a
-                        href="property-single.html"
-                        class="btn btn-primary py-2 px-3"
-                        >See details</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- .item -->
-              </div>
-
-              <div
-                id="property-nav"
-                class="controls"
-                tabindex="0"
-                aria-label="Carousel Navigation"
-              >
-                <span
-                  class="prev"
-                  data-controls="prev"
-                  aria-controls="property"
-                  tabindex="-1"
-                  >Prev</span
-                >
-                <span
-                  class="next"
-                  data-controls="next"
-                  aria-controls="property"
-                  tabindex="-1"
-                  >Next</span
-                >
               </div>
             </div>
           </div>
@@ -486,29 +318,26 @@
       </div>
     </div>
 
-    <div class="section bg-light">
+    <div class="section bg-light" id="services">
       <div class="container">
         <div class="row">
+          <h2 class="text-center">Services</h2>
           <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
             <div class="box-feature mb-4">
               <span class="flaticon-house mb-4 d-block"></span>
-              <h3 class="text-black mb-3 font-weight-bold">
-                Quality Properties
-              </h3>
+              <h3 class="text-black mb-3 font-weight-bold">Quality Properties</h3>
               <p class="text-black-50">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Explore a range of premium properties in prime locations of Bangalore, curated to suit every lifestyle and budget.
               </p>
               <p><a href="#" class="learn-more">Read more</a></p>
             </div>
           </div>
           <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
             <div class="box-feature mb-4">
-              <span class="flaticon-house-2 mb-4 d-block-3"></span>
-              <h3 class="text-black mb-3 font-weight-bold">Top Rated Agent</h3>
+              <span class="flaticon-house mb-4 d-block"></span>
+              <h3 class="text-black mb-3 font-weight-bold">Expert Property Guidance</h3>
               <p class="text-black-50">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Get personalized property advice from our experts to make informed decisions and secure the best deals.
               </p>
               <p><a href="#" class="learn-more">Read more</a></p>
             </div>
@@ -516,12 +345,9 @@
           <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
             <div class="box-feature mb-4">
               <span class="flaticon-building mb-4 d-block"></span>
-              <h3 class="text-black mb-3 font-weight-bold">
-                Property for Sale
-              </h3>
+              <h3 class="text-black mb-3 font-weight-bold">Property for Sale</h3>
               <p class="text-black-50">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Discover a wide range of properties for sale, including residential and commercial spaces in Bangalore.
               </p>
               <p><a href="#" class="learn-more">Read more</a></p>
             </div>
@@ -531,57 +357,7 @@
               <span class="flaticon-house-3 mb-4 d-block-1"></span>
               <h3 class="text-black mb-3 font-weight-bold">House for Sale</h3>
               <p class="text-black-50">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-              <p><a href="#" class="learn-more">Read more</a></p>
-            </div>
-          </div>
-
-          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-            <div class="box-feature mb-4">
-              <span class="flaticon-house-4 mb-4 d-block"></span>
-              <h3 class="text-black mb-3 font-weight-bold">
-                Quality Properties
-              </h3>
-              <p class="text-black-50">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-              <p><a href="#" class="learn-more">Read more</a></p>
-            </div>
-          </div>
-          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
-            <div class="box-feature mb-4">
-              <span class="flaticon-building mb-4 d-block-3"></span>
-              <h3 class="text-black mb-3 font-weight-bold">Top Rated Agent</h3>
-              <p class="text-black-50">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-              <p><a href="#" class="learn-more">Read more</a></p>
-            </div>
-          </div>
-          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
-            <div class="box-feature mb-4">
-              <span class="flaticon-house mb-4 d-block"></span>
-              <h3 class="text-black mb-3 font-weight-bold">
-                Property for Sale
-              </h3>
-              <p class="text-black-50">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
-              <p><a href="#" class="learn-more">Read more</a></p>
-            </div>
-          </div>
-          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
-            <div class="box-feature mb-4">
-              <span class="flaticon-house-1 mb-4 d-block-1"></span>
-              <h3 class="text-black mb-3 font-weight-bold">House for Sale</h3>
-              <p class="text-black-50">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Browse through our listings of houses available for sale in Bangalore's most sought-after neighborhoods.
               </p>
               <p><a href="#" class="learn-more">Read more</a></p>
             </div>
@@ -589,158 +365,23 @@
         </div>
       </div>
     </div>
-
-    <div class="section sec-testimonials">
-      <div class="container">
-        <div class="row mb-5 align-items-center">
-          <div class="col-md-6">
-            <h2 class="font-weight-bold heading text-primary mb-4 mb-md-0">
-              Customer Says
-            </h2>
-          </div>
-          <div class="col-md-6 text-md-end">
-            <div id="testimonial-nav">
-              <span class="prev" data-controls="prev">Prev</span>
-
-              <span class="next" data-controls="next">Next</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4"></div>
-        </div>
-        <div class="testimonial-slider-wrap">
-          <div class="testimonial-slider">
-            <div class="item">
-              <div class="testimonial">
-                <img
-                  src="images/person_1-min.jpg"
-                  alt="Image"
-                  class="img-fluid rounded-circle w-25 mb-4"
-                />
-                <div class="rate">
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                </div>
-                <h3 class="h5 text-primary mb-4">James Smith</h3>
-                <blockquote>
-                  <p>
-                    &ldquo;Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large language ocean.&rdquo;
-                  </p>
-                </blockquote>
-                <p class="text-black-50">Designer, Co-founder</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="testimonial">
-                <img
-                  src="images/person_2-min.jpg"
-                  alt="Image"
-                  class="img-fluid rounded-circle w-25 mb-4"
-                />
-                <div class="rate">
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                </div>
-                <h3 class="h5 text-primary mb-4">Mike Houston</h3>
-                <blockquote>
-                  <p>
-                    &ldquo;Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large language ocean.&rdquo;
-                  </p>
-                </blockquote>
-                <p class="text-black-50">Designer, Co-founder</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="testimonial">
-                <img
-                  src="images/person_3-min.jpg"
-                  alt="Image"
-                  class="img-fluid rounded-circle w-25 mb-4"
-                />
-                <div class="rate">
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                </div>
-                <h3 class="h5 text-primary mb-4">Cameron Webster</h3>
-                <blockquote>
-                  <p>
-                    &ldquo;Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large language ocean.&rdquo;
-                  </p>
-                </blockquote>
-                <p class="text-black-50">Designer, Co-founder</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="testimonial">
-                <img
-                  src="images/person_4-min.jpg"
-                  alt="Image"
-                  class="img-fluid rounded-circle w-25 mb-4"
-                />
-                <div class="rate">
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                  <span class="icon-star text-warning"></span>
-                </div>
-                <h3 class="h5 text-primary mb-4">Dave Smith</h3>
-                <blockquote>
-                  <p>
-                    &ldquo;Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large language ocean.&rdquo;
-                  </p>
-                </blockquote>
-                <p class="text-black-50">Designer, Co-founder</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section section-4 bg-light">
+    
+    <div class="section section-4 bg-light" id="about">
       <div class="container">
         <div class="row justify-content-center text-center mb-5">
           <div class="col-lg-5">
             <h2 class="font-weight-bold heading text-primary mb-4">
-              Let's find home that's perfect for you
+              Let's Find a Home That's Perfect for You
             </h2>
             <p class="text-black-50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              enim pariatur similique debitis vel nisi qui reprehenderit.
+              Discover your dream home in Bangalore's most sought-after neighborhoods with Best Key Realty. From modern apartments to luxurious villas, we make your property search seamless and hassle-free.
             </p>
           </div>
         </div>
         <div class="row justify-content-between mb-5">
           <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
             <div class="img-about dots">
-              <img src="images/hero_bg_3.jpg" alt="Image" class="img-fluid" />
+              <img src="images/hero_bg_3.jpg" alt="Beautiful Home Image" class="img-fluid" />
             </div>
           </div>
           <div class="col-lg-4">
@@ -749,36 +390,33 @@
                 <span class="icon-home2"></span>
               </span>
               <div class="feature-text">
-                <h3 class="heading">2M Properties</h3>
+                <h3 class="heading">Wide Range of Properties</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                  Access over 2 million properties, including premium apartments, villas, and commercial spaces, tailored to your needs.
                 </p>
               </div>
             </div>
-
+    
             <div class="d-flex feature-h">
               <span class="wrap-icon me-3">
                 <span class="icon-person"></span>
               </span>
               <div class="feature-text">
-                <h3 class="heading">Top Rated Agents</h3>
+                <h3 class="heading">Experienced Agents</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                  Our team of professional agents ensures you receive expert guidance and support throughout your property journey.
                 </p>
               </div>
             </div>
-
+    
             <div class="d-flex feature-h">
               <span class="wrap-icon me-3">
                 <span class="icon-security"></span>
               </span>
               <div class="feature-text">
-                <h3 class="heading">Legit Properties</h3>
+                <h3 class="heading">Verified Properties</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                  We offer 100% verified listings to ensure you make secure and reliable property investments with confidence.
                 </p>
               </div>
             </div>
@@ -792,9 +430,9 @@
           >
             <div class="counter-wrap mb-5 mb-lg-0">
               <span class="number"
-                ><span class="countup text-primary">3298</span></span
+                ><span class="countup text-primary">75+</span></span
               >
-              <span class="caption text-black-50"># of Buy Properties</span>
+              <span class="caption text-black-50">Happy customers</span>
             </div>
           </div>
           <div
@@ -804,9 +442,9 @@
           >
             <div class="counter-wrap mb-5 mb-lg-0">
               <span class="number"
-                ><span class="countup text-primary">2181</span></span
+                ><span class="countup text-primary">15</span></span
               >
-              <span class="caption text-black-50"># of Sell Properties</span>
+              <span class="caption text-black-50">On going projects</span>
             </div>
           </div>
           <div
@@ -816,9 +454,9 @@
           >
             <div class="counter-wrap mb-5 mb-lg-0">
               <span class="number"
-                ><span class="countup text-primary">9316</span></span
+                ><span class="countup text-primary">50</span></span
               >
-              <span class="caption text-black-50"># of All Properties</span>
+              <span class="caption text-black-50">Resale Properties</span>
             </div>
           </div>
           <div
@@ -828,157 +466,22 @@
           >
             <div class="counter-wrap mb-5 mb-lg-0">
               <span class="number"
-                ><span class="countup text-primary">7191</span></span
+                ><span class="countup text-primary">50</span></span
               >
-              <span class="caption text-black-50"># of Agents</span>
+              <span class="caption text-black-50">Rental properties</span>
             </div>
           </div>
         </div>
       </div>
     </div>
+    
 
-    <div class="section">
-      <div class="row justify-content-center footer-cta" data-aos="fade-up">
-        <div class="col-lg-7 mx-auto text-center">
-          <h2 class="mb-4">Be a part of our growing real state agents</h2>
-          <p>
-            <a
-              href="#"
-              target="_blank"
-              class="btn btn-primary text-white py-3 px-4"
-              >Apply for Real Estate agent</a
-            >
-          </p>
-        </div>
-        <!-- /.col-lg-7 -->
-      </div>
-      <!-- /.row -->
-    </div>
+    
 
-    <div class="section section-5 bg-light">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-lg-6 mb-5">
-            <h2 class="font-weight-bold heading text-primary mb-4">
-              Our Agents
-            </h2>
-            <p class="text-black-50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              enim pariatur similique debitis vel nisi qui reprehenderit totam?
-              Quod maiores.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="h-100 person">
-              <img
-                src="images/person_1-min.jpg"
-                alt="Image"
-                class="img-fluid"
-              />
-
-              <div class="person-contents">
-                <h2 class="mb-0"><a href="#">James Doe</a></h2>
-                <span class="meta d-block mb-3">Real Estate Agent</span>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere officiis inventore cumque tenetur laboriosam, minus
-                  culpa doloremque odio, neque molestias?
-                </p>
-
-                <ul class="social list-unstyled list-inline dark-hover">
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-twitter"></span></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-facebook"></span></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-linkedin"></span></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-instagram"></span></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="h-100 person">
-              <img
-                src="images/person_2-min.jpg"
-                alt="Image"
-                class="img-fluid"
-              />
-
-              <div class="person-contents">
-                <h2 class="mb-0"><a href="#">Jean Smith</a></h2>
-                <span class="meta d-block mb-3">Real Estate Agent</span>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere officiis inventore cumque tenetur laboriosam, minus
-                  culpa doloremque odio, neque molestias?
-                </p>
-
-                <ul class="social list-unstyled list-inline dark-hover">
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-twitter"></span></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-facebook"></span></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-linkedin"></span></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-instagram"></span></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="h-100 person">
-              <img
-                src="images/person_3-min.jpg"
-                alt="Image"
-                class="img-fluid"
-              />
-
-              <div class="person-contents">
-                <h2 class="mb-0"><a href="#">Alicia Huston</a></h2>
-                <span class="meta d-block mb-3">Real Estate Agent</span>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere officiis inventore cumque tenetur laboriosam, minus
-                  culpa doloremque odio, neque molestias?
-                </p>
-
-                <ul class="social list-unstyled list-inline dark-hover">
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-twitter"></span></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-facebook"></span></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-linkedin"></span></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><span class="icon-instagram"></span></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
+    <div class="section" id="location">
       <div class="container">
         <div class="row">
+          <!-- Contact Information -->
           <div
             class="col-lg-4 mb-5 mb-lg-0"
             data-aos="fade-up"
@@ -989,10 +492,13 @@
                 <i class="icon-room"></i>
                 <h4 class="mb-2">Location:</h4>
                 <p>
-                  1,1st floor, Shop No 2,<br />1st cross Sri Vinayaka Badavane, <br />Parapana Agrahara Main Road, <br />Kudlu, Singasandra, Bengalore 560068.
+                  1,1st floor, Shop No 2,<br />
+                  1st cross Sri Vinayaka Badavane, <br />
+                  Parapana Agrahara Main Road, <br />
+                  Kudlu, Singasandra, Bengalore 560068.
                 </p>
               </div>
-
+    
               <div class="open-hours mt-4">
                 <i class="icon-clock-o"></i>
                 <h4 class="mb-2">Open Hours:</h4>
@@ -1001,13 +507,13 @@
                   10:00 AM - 6:00 PM
                 </p>
               </div>
-
+    
               <div class="email mt-4">
                 <i class="icon-envelope"></i>
                 <h4 class="mb-2">Email:</h4>
                 <p>bestkeyreality@gmail.com</p>
               </div>
-
+    
               <div class="phone mt-4">
                 <i class="icon-phone"></i>
                 <h4 class="mb-2">Call:</h4>
@@ -1015,54 +521,23 @@
               </div>
             </div>
           </div>
+    
+          <!-- Google Maps Embed -->
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <form action="#">
-              <div class="row">
-                <div class="col-6 mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Your Name"
-                  />
-                </div>
-                <div class="col-6 mb-3">
-                  <input
-                    type="email"
-                    class="form-control"
-                    placeholder="Your Email"
-                  />
-                </div>
-                <div class="col-12 mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Subject"
-                  />
-                </div>
-                <div class="col-12 mb-3">
-                  <textarea
-                    name=""
-                    id=""
-                    cols="30"
-                    rows="7"
-                    class="form-control"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-
-                <div class="col-12">
-                  <input
-                    type="submit"
-                    value="Send Message"
-                    class="btn btn-primary"
-                  />
-                </div>
-              </div>
-            </form>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3889.385725411949!2d77.65320857507491!3d12.882900687424401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDUyJzU4LjQiTiA3N8KwMzknMjAuOCJF!5e0!3m2!1sen!2sin!4v1736509976847!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style="border: 0; border-radius: 15px;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
     </div>
+    
 
     <div class="site-footer">
       <div class="container">
@@ -1070,12 +545,14 @@
           <div class="col-lg-4">
             <div class="widget">
               <h3>Contact</h3>
-              <address>43 Raymouth Rd. Baltemoer, London 3910</address>
+              <address>1,1st floor, Shop No 2,
+                1st cross Sri Vinayaka Badavane,
+                Parapana Agrahara Main Road,
+                Kudlu, Singasandra, Bengalore 560068.</address>
               <ul class="list-unstyled links">
-                <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-                <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+                <li><a href="tel://+91 74839 64095">+91 74839 64095</a></li>
                 <li>
-                  <a href="mailto:info@mydomain.com">info@mydomain.com</a>
+                  <a href="mailto:bestkeyreality@gmail.com">bestkeyreality@gmail.com</a>
                 </li>
               </ul>
             </div>
@@ -1086,20 +563,10 @@
             <div class="widget">
               <h3>Sources</h3>
               <ul class="list-unstyled float-start links">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Vision</a></li>
-                <li><a href="#">Mission</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
-              </ul>
-              <ul class="list-unstyled float-start links">
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Creative</a></li>
+                <li><a href="#index">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="terms.html">Terms</a></li>
               </ul>
             </div>
             <!-- /.widget -->
@@ -1109,9 +576,8 @@
             <div class="widget">
               <h3>Links</h3>
               <ul class="list-unstyled links">
-                <li><a href="#">Our Vision</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#contact">Contact us</a></li>
               </ul>
 
               <ul class="list-unstyled social">
@@ -1126,12 +592,6 @@
                 </li>
                 <li>
                   <a href="#"><span class="icon-linkedin"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="icon-pinterest"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="icon-dribbble"></span></a>
                 </li>
               </ul>
             </div>
